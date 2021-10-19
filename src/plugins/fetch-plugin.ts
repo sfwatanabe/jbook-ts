@@ -1,4 +1,3 @@
-import React from "react";
 import * as esbuild from "esbuild-wasm";
 import axios from "axios";
 import localForage from "localforage";
