@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import CodeEditor from "./CodeEditor";
-import Preview from "./Preview";
-import bundle from "../bundler";
+import CodeEditor from "./CodeEditor/CodeEditor";
+import Preview from "./Preview/Preview";
+import bundle from "../../bundler";
 
 const CodeCell = () => {
   const [code, setCode] = useState("");
